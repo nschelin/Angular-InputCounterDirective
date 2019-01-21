@@ -1,0 +1,26 @@
+<!-- The content below is only a placeholder and can be replaced. -->
+
+<div>
+  <label for="myInput">My Input</label>
+  <input
+    type="text"
+    name="myInput"
+    inputCounter
+    maxlength="25"
+    [(ngModel)]="myInput"
+  />
+</div>
+<div>
+  <label for="noMaxLength">No Max Length</label>
+  <input type="text" name="myInput" inputCounter [(ngModel)]="noMaxLength" />
+</div>
+<div>
+  <label for="myTextArea">My Text Area</label>
+  <textarea
+    name="myTextArea"
+    [(ngModel)]="myTextArea"
+    inputCounter
+    maxlength="100"
+  >
+  </textarea>
+</div>
